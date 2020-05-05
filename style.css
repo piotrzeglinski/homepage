@@ -19,5 +19,6 @@ h2, h3, h4 {
 }
 
 h1 {
-  color: #000000
+  color: #000000;
+  background: orange;
 }
