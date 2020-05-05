@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uczę się Frontendu</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header id="top">
+        <nav>
+            <a href="index.html">STRONA GŁÓWNA</a>
+            <a href="nauka-html.html">HTML</a>
+            <a href="nauka-css.html">CSS</a>
+            <a href="nauka-js.html">JAVA SCRIPT</a>
+            <a href="narzedzia.html">NARZĘDZIA</a>
+        </nav>
+    </header>
+    
+    <main>
+        <header>
+            <h1 class="title-color">OD ZERA DO FRONTEND DEVELOPERA!</h1>
+            <div style="text-align: center"><img src="laptop.jpg" alt=biurko na którym stoi laptop></div>
+        </header>
+            <section class="top-section">
+                <h2>Dlaczego Frontend?</h2>
+                <p>Ten temat chodził mi po głowie już od jakiegoś czasu. W ostatnich dniach promocji natknąłem się na materiały 
+                    promujące <b>„WTF co ten frontend”</b> i mówiąc wprost Maciek Korsan <i>kupił mnie</i> sposobem prezentacji, 
+                    tłumaczenia czy tempem zajęć, które można dostosować do własnego planu dnia. 
+                    Mam nadzieję, że zdobyta wiedza pomoże mi nie tylko w stworzeniu własnej strony, ale również przyczyni się do 
+                    tworzenia kolejnych, komercyjnych projektów, bo chętnie zmieniłbym charakter pracy…</p>
+                <p></p>
+                <p><a href="https://cotenfrontend.pl" target="_blank">Dowiedz się więcej o szkoleniu</a>, przejdź do zakresu szkolenia
+                <a href="#notatki">Tygodniowy rozkład zajęć</a> lub bezpośrednio do interesującej Ciebie sekcji <a href="nauka-html.html">HTML</a> 
+                <a href="nauka-css.html">CSS</a> <a href="nauka-js.html">JAVA SCRIPT</a> lub <a href="narzedzia.html">Narzędzia</a></p>
+            </section>
+
+            <section>
+                <h3>O mnie</h3>
+                    <p>Cześć! jestem Piotrek i od kilkunastu lat jestem związany z branżą szkoleniową, PR-ową i marketingową.<br> 
+                    Po godzinach jestem też trenerem piłki nożnej ⚽⚽⚽ w grupach młodzieżowych. Lubię podróże, dobry serial czy książkę.</p>
+                    <p>PS. Jeśli będziesz miała/miał pytania pisz śmiało. Dla łatwiejszego kontaktu proponuję od razu <em>przejście na TY</em> 🍻</p>
+                <img src="pz.jpg" alt="friendly boy">
+                </section>
+
+            <section class="section-notatki">
+                <h3>Zakres szkolenia</h3>
+                <p>Zanim zapoznasz się ze szczegółowym zakresem szkolenia, możesz sprawdzić jak przedstawia się ścieżka rozwoju 
+                Frontend Developera <a href="https://roadmap.sh/frontend"target="_blank">Kliknij tutaj</a><br>
+                Może z tą wiedzą nie zostaniesz od razu <a href="https://www.youtube.com/watch?v=5twveLmWhvI"target="_blank">tym Panem</a>,
+                ale solidne podstawy powinieneś mieć opanowane 💪</p>
+                
+                <article>
+                    <h3>Tygodniowy podział tematów:</h3>
+                    <ol> 
+                        <h4>Tydzień 1</h4> 
+                       <ul> 
+                         <li>Zasady kursu</li>
+                         <li>Czym jest frontend / backend</li>
+                         <li>Konfiguracja komputera - Visual Studio Code</li> 
+                         <li>Instalacja narzędzi do pracy - założenie konta Slack</li>
+                       </ul> 
+                        <h4>Tydzień 2</h4>
+                       <ul> 
+                        <li>Warstwy strony internetowej</li>
+                        <li>Wprowadzenie do HTML - poznajemy główne znaczniki</li>
+                        <ul>
+                            <li><strong> &ltmain> &lt/main> </strong>- główna część strony, tu wrzucamy zawartość strony</li>
+                            <li><strong> &ltheader> &lt/header> </strong>- nagłówek, gdy jest poza body powtarza się, na każdej stronie</li>
+                            <li><strong> &lth1-h6> &lt/h1-h6> </strong>- nagłówki</li>
+                            <li><strong> &ltfooter> &lt/footer> </strong>- stopka</li>
+                            <li><strong> &ltsection> &lt/section> </strong>- sekcja, wydziela spójną tematycznie część. Dzieli na sekcje. 
+                                Przykład: sekcja sport w gazecie. W sekcji sport mogą byćartykuły o piłce nożnej, ciatkówce, itp.</li>
+                            <li><strong> &ltarticle> &lt/article> </strong>- artykuł, niesie treść, treść tekstowa (ale i obraz, tabela), 
+                                która może być zaprezentowana osobno</li>
+                            <li><strong> &ltp> &lt/p> </strong>- paragraf, akapit</li>
+                        </ul>
+                        <li>Wprowadzenie do CSS</li>
+                        <ul>
+                            <li>budowa reguły CSS: selektor {wartość: wartość;} Selektor - wskazuje to co ma być ostylowane.<br>
+                                W sekcji head w kodzie html musimy wpisać znacznik link: <strong> &ltlink href="style.css" rel="stylesheet" type="text/css"</strong><br>
+                                Przykładowe znaczniki: {background / color: kolorbody / background / section / h1 / p / itp</li>
+                                Przykładowy zapis kolorów: {background / color: wybrana nazwa koloru; lub zapis szesnastkowy: <strong>#ffffff</strong>
+                        </ul>
+                          <li>Devtools – Chrome - opcje zbadaj lub F12</li>
+                          <li>Wstęp do programowania – przykład z zapisem dot. gotowania herbaty. Innymi słowy programowanie to 
+                              zamiana języka ludzkiego na język zrozumiały przez komputer.<br>
+                              JavaScript pozwala na programowanie we frontendzie i może wpływać na każdą z warstw (treść, HTML, CSS).</li> 
+                          <li>Zaczynamy pracę nad stroną</li>
+                        </ul>
+                          <h4>Tydzień 3</h4>
+                        <ul> 
+                              <li>Metoda pracy Kanban - instalujemy Trello</li>
+                              <li>Opowieść o wężu, kebabie, wielbłądzie i Pascalu</li>
+                              <li>HTML II - linki/zdjęcia/nawigacja</li>
+                              <li>CSS II - klasy, ID</li>
+                              <li>JS - skrypt</li>
+                              <li>Jak działa Internet i przeglądarka</li>
+                              <li>Terminal</li>
+                              <li>Praca domowa i istny 💣💥🔥🔥🔥 po jej rozwiązaniu <i><a href="#top">Wróć na górę strony</a></i></li>
+                        </ul> 
+                        <h4>Tydzień 4</h4>
+                        <ul> 
+                              <li>GIT</li>
+                              <li>cdn</li>
+                        </ul>
+                    </ol> 
+                </article>
+            </section>
+
+</main>
+<footer>
+    Prawa udostępniam! Bierzcie i kopiujcie jak coś ;)
+    </footer>
+    <script src="main.js"> </script>
+</body>
+
+
+</html>

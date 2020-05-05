@@ -1,0 +1,19 @@
+body{
+  background: #16697a;
+}
+
+a {
+  color: darkred;
+}
+
+section, article {
+  background: #FBFFFE
+}
+
+footer {
+  color: yellow;
+}
+
+h2, h3, h4 {
+  color: #383D3B
+}
