@@ -1,46 +1,72 @@
-body {
+.body-background {
   background: #16697a;
 }
 
-a {
+.second-body-background {
+  background: grey;
+}
+
+.tools-body-background {
+  background: #6e638b;
+}
+
+.about-me-body-background {
+  color: red; 
+  background: forestgreen;
+}
+
+nav a {
   color: darkred;
 }
 
-section,
-article {
-  background: #fbfffe;
+a {
+  color: orangered;
 }
 
-footer {
-  color: yellow;
+#html, #javascript, #git, #shortcuts {
+  color: black;
+  background: grey
 }
 
-h2,
-h3,
-h4 {
-  color: #383d3b;
+#css, #terminal, #remember {
+  color: black;
+  background: lightseagreen;
 }
 
-h1 {
-  color: #000000;
+.knowledge-section {
+  background: lightsteelblue;
+}
+
+.subject-list {
+  background: white;
+}
+
+.heading {
+  color: red;
   background: orange;
 }
 
+.second-heading {
+  color: green;
+  background: pink;
+}
 
+.third-heading {
+  color: blue;
+  background: darkred;
+}
 
+.fourth-heading {
+  color: white;
+  background: black;
+}
 
-
+.footer {
+  color:orange;
+}
 
 .tools-section {
-  background: red;
-}
-
-.about-me {
-  color: red; background: yellowgreen;
-}
-
-.about-me-body {
-  background: forestgreen;
+  background: rgb(184, 183, 183);
 }
 
 .top-link-color {
@@ -48,6 +74,11 @@ h1 {
   background: yellow;
 }
 
-#git {
-  color: red;
+.remember {
+  color: rgba (8, 121, 155, 0.5);
+  background: rgba (8, 121, 155, 0.5);
+}
+
+.about-me {
+  background: lightgreen;
 }

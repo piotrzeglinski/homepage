@@ -7,7 +7,7 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
-  <body>
+  <body class="body-background">
     <header id="top">
       <nav>
         <a href="index.html">STRONA GŁÓWNA</a>
@@ -21,12 +21,12 @@
       <header>
         <h1 class="heading">OD ZERA DO FRONTEND DEVELOPERA!</h1>
         <div style="text-align: center;">
-          <img src="laptop.jpg" alt="biurko na którym stoi laptop"/>
+          <img src="laptop.jpg" alt="biurko na którym stoi laptop" />
         </div>
       </header>
 
       <section class="main-section">
-        <h2>Dlaczego Frontend?</h2>
+        <h2 class="second-heading">Dlaczego Frontend?</h2>
         <p>
           Ten temat chodził mi po głowie już od jakiegoś czasu. W ostatnich
           dniach promocji natknąłem się na materiały promujące
@@ -39,15 +39,17 @@
         </p>
         <p>
           <a href="https://cotenfrontend.pl" target="_blank"
-            >Dowiedz się więcej o szkoleniu WTF Co Ten Frontend</a>
-          albo zapoznaj się z dodatkowymi informacjami zawartymi w sekcjach: <a href="nauka-html.html">BAZA WIEDZY</a>
+            >Dowiedz się więcej o szkoleniu "WTF Co Ten Frontend"</a
+          >
+          albo zapoznaj się z dodatkowymi informacjami zawartymi w sekcjach:
+          <a href="nauka-html.html">BAZA WIEDZY</a>
           <a href="narzedzia.html">NARZĘDZIA</a> lub
           <a href="o-mnie.html">O MNIE</a>
         </p>
       </section>
 
-      <section class="section-notatki">
-        <h3>Zakres szkolenia</h3>
+      <section class="section-notes">
+        <h3 class="third-heading">Zakres szkolenia</h3>
         <p>
           Zanim zapoznasz się ze szczegółowym zakresem szkolenia, możesz
           sprawdzić jak przedstawia się ścieżka rozwoju Frontend Developera
@@ -59,147 +61,169 @@
           >, ale solidne podstawy powinieneś mieć opanowane 💪
         </p>
       </section>
-        
-      <article>
-        <h3>Przejdź do interesującego zakresu:</h3>
-         
-          <ul class="horizontal-list">
-            <li><a href="#html">HTML</a></li>
-            <li><a href="#css">CSS</a></li>
-            <li><a href="#javascript">JAVASCRIPT</a></li>
-            <li><a href="#terminal">TERMINAL</a></li>
-            <li><a href="#git">GIT</a></li>
-            <li><a href="#remember">DO ZAPAMIĘTANIA</a></li>
-            <li><a href="#shortcuts">SKRÓTY KLAWISZOWE</a></li>
-            </ul> 
-          <ol>
-            <section id="html">
-            <h4>HTML</h4>
-              <ul>
-                <li>
-                  <strong> &ltmain> &lt/main> </strong>- główna część strony, tu
-                  wrzucamy zawartość strony
-                </li>
-                <li>
-                  <strong> &ltheader> &lt/header> </strong>- nagłówek, gdy jest
-                  poza body powtarza się, na każdej stronie
-                </li>
-                <li><strong> &lth1-h6> &lt/h1-h6> </strong>- nagłówki</li>
-                <li><strong> &ltfooter> &lt/footer> </strong>- stopka</li>
-                <li>
-                  <strong> &ltsection> &lt/section> </strong>- sekcja, wydziela
-                  spójną tematycznie część. Dzieli na sekcje. Przykład: sekcja
-                  sport w gazecie. W sekcji sport mogą być artykuły o piłce
-                  nożnej, siatkówce, itp.
-                </li>
-                <li>
-                  <strong> &ltarticle> &lt/article> </strong>- artykuł, niesie
-                  treść, treść tekstowa (ale i obraz, tabela), która może być
-                  zaprezentowana osobno
-                </li>
-                <li><strong> &ltp> &lt/p> </strong>- paragraf, akapit</li>
-              </ul>
-            </section>
 
-            <section id="css">
-              <h4>CSS</h4>
-                <ul>
-                  <li>
-                    budowa reguły CSS: selektor {wartość: wartość;} Selektor -
-                    wskazuje to co ma być ostylowane.<br />
-                    W sekcji head w kodzie html musimy wpisać znacznik link:
-                    <strong>
-                      &ltlink href="style.css" rel="stylesheet"
-                      type="text/css"</strong
-                    ><br />
-                    Przykładowe znaczniki: {background / color: kolorbody /
-                    background / section / h1 / p / itp
-                  </li>
-                  Przykładowy zapis kolorów: {background / color: wybrana nazwa
-                  koloru; lub zapis szesnastkowy:
-                  <strong>#ffffff</strong>
-                </ul>
-            </section>
+      <article class="subject-list">
+        <h3 class="third-heading">Przejdź do interesującego zakresu:</h3>
 
-            <section id="javascript">
-              <h4>JAVASCRIPT</h4>
-                <ul>
-                  <li>coś tam coś tam </li>
-                </ul>
-            </section>
+        <ul class="horizontal-list">
+          <li><a href="#html">HTML</a></li>
+          <li><a href="#css">CSS</a></li>
+          <li><a href="#javascript">JAVASCRIPT</a></li>
+          <li><a href="#terminal">TERMINAL</a></li>
+          <li><a href="#git">GIT</a></li>
+          <li><a href="#remember">DO ZAPAMIĘTANIA</a></li>
+          <li><a href="#shortcuts">SKRÓTY KLAWISZOWE</a></li>
+        </ul>
+        <ol>
+          <section id="html">
+            <h4 class="fourth-heading">HTML</h4>
+            <ul>
+              <li>
+                <strong> &ltmain> &lt/main> </strong>- główna część strony, tu
+                wrzucamy zawartość strony
+              </li>
+              <li>
+                <strong> &ltheader> &lt/header> </strong>- nagłówek, gdy jest
+                poza body powtarza się, na każdej stronie
+              </li>
+              <li><strong> &lth1-h6> &lt/h1-h6> </strong>- nagłówki</li>
+              <li><strong> &ltfooter> &lt/footer> </strong>- stopka</li>
+              <li>
+                <strong> &ltsection> &lt/section> </strong>- sekcja, wydziela
+                spójną tematycznie część. Dzieli na sekcje. Przykład: sekcja
+                sport w gazecie. W sekcji sport mogą być artykuły o piłce
+                nożnej, siatkówce, itp.
+              </li>
+              <li>
+                <strong> &ltarticle> &lt/article> </strong>- artykuł, niesie
+                treść, treść tekstowa (ale i obraz, tabela), która może być
+                zaprezentowana osobno
+              </li>
+              <li><strong> &ltp> &lt/p> </strong>- paragraf, akapit</li>
+            </ul>
+          </section>
 
-            <section id="terminal">
-              <h4>TERMINAL</h4>
-                <ul>
-                  <li>cmd - uruchomienie terminala</li>
-                  <li>c:/users - przejście do właściwego katalogu</li>
-                  <li>cd c:/ - przejście do katalogu c</li>
-                  <li>cd + pierwsza litera + TAB - przyspiesza wyszukanie pliku</li>
-                  <li>dir - wyświetla zawartość katalogu</li>
-                  <li>mkdir + nazwa katalogu - tworzenie katalogu</li>
-                  <li>cd - wyświetlenie aktualnej ścieżki</li>
-                  <li>cd nazwa katalogu - wejście do katalogu</li>
-                  <li>cd .. - wejście do katalogu wyżej</li>
-                  <li>cd ../.. - wejście 2 poziomy wyżej</li>
-                  <li>code . - uruchomienie Visual Studio Code</li>
-                  <li>code +nazwa pliku - otwarcie pliku</li>
-                </ul>
-            </section>
+          <section id="css">
+            <h4 class="fourth-heading">CSS</h4>
+            <ul>
+              <li>
+                budowa reguły CSS: selektor {wartość: wartość;} Selektor -
+                wskazuje to co ma być ostylowane.<br />
+                W sekcji head w kodzie html musimy wpisać znacznik link:
+                <strong>
+                  &ltlink href="style.css" rel="stylesheet"
+                  type="text/css"</strong
+                ><br />
+                Przykładowe znaczniki: {background / color: kolorbody /
+                background / section / h1 / p / itp
+              </li>
+              Przykładowy zapis kolorów: {background / color: wybrana nazwa
+              koloru; lub zapis szesnastkowy:
+              <strong>#ffffff</strong>
+            </ul>
+          </section>
 
-            <section id="git">
-              <h4>GIT</h4>
-                <ul>
-                  <p>Komendy wpiywane w terminalu:</p>
-                  <li>git --version - sprawdzenie wersji</li>
-                  <li>git config --global user.name "imię i nazwisko"</li>
-                  <li>git config --get user.name - sprawdzenie</li>
-                  <li>git config --global user.email "adres e-mail"</li>
-                  <li>git config --get user.email - sprawdzenie</li>
-                  <li>git init + enter - zakładamy repozytorium - wchodzimy w terminalu do katalogu docelowego i wpisujemy ww komendę</li>
-                  <li>git status - wyświetla status</li>
-                  <li>git add . - dodawanie wszystkich plików z katalogu</li>
-                  <li>git commit -m "tytuł zmiany" - zapisanie zmian, kommitowanie, angielska nazwa zmiany!</li>
-                  <li>gitk - polecenie otwierające dokument/podgląd</li>
-                  <li>git push - wypchnięcie zmian do git huba</li>
-                  <li>clear - polecenie czyszczące okno</li>
-                  <li>git lens - rozszerzenie pokazujące więcej szczegółów</li>
-                  <li>Commit - stan projektu, czyli zapis kolejnych zmian</li>
-                  <li>Kolejność działań: zmiany w kodzie w VSCode, następnie w terminalu: git status (na czerwono gdy są zmiany) / git add . 
-                    /git commit -m "nazwa zmiany" / git push /</li>
-                  <li>* strzałki góra/dół - wyświetlają poprzednio wpisywane komendy, co może przyspieszyć pracę</li>
-                  <li>GIT HUB - programistyczna wizytówka, miejsce przetrzymywania repozytoriów</li>
-                </ul>
-            </section>
+          <section id="javascript">
+            <h4 class="fourth-heading">JAVASCRIPT</h4>
+            <ul>
+              <li>coś tam coś tam</li>
+            </ul>
+          </section>
 
-            <section id="remember">
-              <h4>DO ZAPAMIĘTANIA</h4>
-                <ul>
-                  <li>camelCase: mySuperBoldHeader</li>
-                  <li>kebab-case: my-super-bold-header</li>
-                  <li>snake_case: my_super_bold_header</li>
-                  <li>PascalCase: MySuperBoldHeader</li>
-                  <li>Gdy stylujemy to nazwy angielskie zapisywane jako kebab-case (np.news-listing). Ważne - zapisuj nazwy zgodnie z ich funkcją. 
-                    Element powinien mieć jedną klasę</li>
-                  <li>Nie używać jednego ID do wielu elementów!</li>
-                </ul>
-            </section>
+          <section id="terminal">
+            <h4 class="fourth-heading">TERMINAL</h4>
+            <ul>
+              <li>cmd - uruchomienie terminala</li>
+              <li>c:/users - przejście do właściwego katalogu</li>
+              <li>cd c:/ - przejście do katalogu c</li>
+              <li>cd + pierwsza litera + TAB - przyspiesza wyszukanie pliku</li>
+              <li>dir - wyświetla zawartość katalogu</li>
+              <li>mkdir + nazwa katalogu - tworzenie katalogu</li>
+              <li>cd - wyświetlenie aktualnej ścieżki</li>
+              <li>cd nazwa katalogu - wejście do katalogu</li>
+              <li>cd .. - wejście do katalogu wyżej</li>
+              <li>cd ../.. - wejście 2 poziomy wyżej</li>
+              <li>code . - uruchomienie Visual Studio Code</li>
+              <li>code +nazwa pliku - otwarcie pliku</li>
+            </ul>
+          </section>
 
-            <section id="shortcuts">
-              <h4>SKRÓTY KLAWISZOWE</h4>
-                <ul>
-                  <li>! + TAB</li>
-                  <li>CTRL + SHIFT + P</li>
-                  <li>coś tam coś tam</li><br>
-                  <span>
-                  <i><a href="#top" class="top-link-color">Wróć na górę strony</a></i>
-                </span>
-               </ul>
-              </section>
-            </ol>
-        </article>
-    
+          <section id="git">
+            <h4 class="fourth-heading">GIT</h4>
+            <ul>
+              <p>Komendy wpiywane w terminalu:</p>
+              <li>git --version - sprawdzenie wersji</li>
+              <li>git config --global user.name "imię i nazwisko"</li>
+              <li>git config --get user.name - sprawdzenie</li>
+              <li>git config --global user.email "adres e-mail"</li>
+              <li>git config --get user.email - sprawdzenie</li>
+              <li>
+                git init + enter - zakładamy repozytorium - wchodzimy w
+                terminalu do katalogu docelowego i wpisujemy ww komendę
+              </li>
+              <li>git status - wyświetla status</li>
+              <li>git add . - dodawanie wszystkich plików z katalogu</li>
+              <li>
+                git commit -m "tytuł zmiany" - zapisanie zmian, kommitowanie,
+                angielska nazwa zmiany!
+              </li>
+              <li>gitk - polecenie otwierające dokument/podgląd</li>
+              <li>git push - wypchnięcie zmian do git huba</li>
+              <li>clear - polecenie czyszczące okno</li>
+              <li>git lens - rozszerzenie pokazujące więcej szczegółów</li>
+              <li>Commit - stan projektu, czyli zapis kolejnych zmian</li>
+              <li>
+                Kolejność działań: zmiany w kodzie w VSCode, następnie w
+                terminalu: git status (na czerwono gdy są zmiany) / git add .
+                /git commit -m "nazwa zmiany" / git push /
+              </li>
+              <li>
+                * strzałki góra/dół - wyświetlają poprzednio wpisywane komendy,
+                co może przyspieszyć pracę
+              </li>
+              <li>
+                GIT HUB - programistyczna wizytówka, miejsce przetrzymywania
+                repozytoriów
+              </li>
+            </ul>
+          </section>
+
+          <section id="remember">
+            <h4 class="fourth-heading">DO ZAPAMIĘTANIA</h4>
+            <ul>
+              <li>camelCase: mySuperBoldHeader</li>
+              <li>kebab-case: my-super-bold-header</li>
+              <li>snake_case: my_super_bold_header</li>
+              <li>PascalCase: MySuperBoldHeader</li>
+              <li>
+                Gdy stylujemy to nazwy angielskie zapisywane jako kebab-case
+                (np.news-listing). Ważne - zapisuj nazwy zgodnie z ich funkcją.
+                Element powinien mieć jedną klasę
+              </li>
+              <li>Nie używać jednego ID do wielu elementów!</li>
+            </ul>
+          </section>
+
+          <section id="shortcuts">
+            <h4 class="fourth-heading">SKRÓTY KLAWISZOWE</h4>
+            <ul>
+              <li>! + TAB</li>
+              <li>CTRL + SHIFT + P</li>
+              <li>coś tam coś tam</li>
+              <br />
+              <span>
+                <i
+                  ><a href="#top" class="top-link-color"
+                    >Wróć na górę strony</a
+                  ></i
+                >
+              </span>
+            </ul>
+          </section>
+        </ol>
+      </article>
     </main>
-    <footer>
+    <footer class="footer">
       Strona jest efektem szkolenia WTF - co ten Frontend! Wykonanie "Zaglinho"®
     </footer>
     <script src="main.js"></script>
