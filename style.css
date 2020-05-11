@@ -1,4 +1,4 @@
-body{
+body {
   background: #16697a;
 }
 
@@ -6,16 +6,19 @@ a {
   color: darkred;
 }
 
-section, article {
-  background: #FBFFFE
+section,
+article {
+  background: #fbfffe;
 }
 
 footer {
   color: yellow;
 }
 
-h2, h3, h4 {
-  color: #383D3B
+h2,
+h3,
+h4 {
+  color: #383d3b;
 }
 
 h1 {
@@ -23,3 +26,28 @@ h1 {
   background: orange;
 }
 
+
+
+
+
+
+.tools-section {
+  background: red;
+}
+
+.about-me {
+  color: red; background: yellowgreen;
+}
+
+.about-me-body {
+  background: forestgreen;
+}
+
+.top-link-color {
+  color: blue;
+  background: yellow;
+}
+
+#git {
+  color: red;
+}

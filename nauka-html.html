@@ -1,51 +1,45 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Uczę się Frontendu</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
+  <body>
     <nav>
-        <a href="index.html">STRONA GŁÓWNA</a>
-        <a href="nauka-html.html">HTML</a>
-        <a href="nauka-css.html">CSS</a>
-        <a href="nauka-js.html">JAVA SCRIPT</a>
-        <a href="narzedzia.html">NARZĘDZIA</a>
+      <a href="index.html">STRONA GŁÓWNA</a>
+      <a href="nauka-html.html">BAZA WIEDZY</a>
+      <a href="narzedzia.html">NARZĘDZIA</a>
+      <a href="o-mnie.html">O MNIE</a>
     </nav>
 
     <main>
-        <header>
-            <h1 class="title-color">HTML</h1>
-            <div style="text-align: center"><img src="laptop.jpg" alt=biurko na którym stoi laptop></div>
-        </header>
+      <header>
+        <h1 class="heading">BAZA WIEDZY</h1>
+        <div style="text-align: center;">
+          <img src="laptop.jpg" alt="biurko na którym stoi laptop"/>
+        </div>
+      </header>
 
-        <section class="section-color">
-            <h2>Materiały / informacje / rekomendacje / sugestie</h2>
-            <article>
-                <ol> 
-                    <ul>
-                        <li><strong> &ltmain> &lt/main> </strong>- główna część strony, tu wrzucamy zawartość strony</li>
-                        <li><strong> &ltheader> &lt/header> </strong>- nagłówek, gdy jest poza body powtarza się, na każdej stronie</li>
-                        <li><strong> &lth1-h6> &lt/h1-h6> </strong>- nagłówki</li>
-                        <li><strong> &ltfooter> &lt/footer> </strong>- stopka</li>
-                        <li><strong> &ltsection> &lt/section> </strong>- sekcja, wydziela spójną tematycznie część. Dzieli na sekcje. 
-                                Przykład: sekcja sport w gazecie. W sekcji sport mogą byćartykuły o piłce nożnej, ciatkówce, itp.</li>
-                        <li><strong> &ltarticle> &lt/article> </strong>- artykuł, niesie treść, treść tekstowa (ale i obraz, tabela), 
-                                która może być zaprezentowana osobno</li>
-                        <li><strong> &ltp> &lt/p> </strong>- paragraf, akapit</li>
-                    </ul>
-                </ol>
-              </article>      
-        </section>
-       
-    <footer>
-    Prawa udostępniam! Bierzcie i kopiujcie jak coś ;)
-    </footer>
+      <section class="knowledge-section">
+        <h2 class="heading">Strony godne uwagi</h2>
+        <article class="knowledge-article">
+          <ol>
+            <ul>
+              <li><a href="https://developer.mozilla.org/pl/" target="_blank">MDN</a></li>
+              <li><a href="https://css-tricks.com/" target="_blank">CSS Tricks</a></li>
+              <li><a href="https://coolors.co/" target="_blank">Coolors</a></li>
+              <li><a href="https://flexboxfroggy.com/#pl" target="_blank">Flexboxfroggy</a></li>
+            </ul>
+          </ol>
+        </article>
+      </section>
 
     </main>
-</body>
-
+    <footer>
+      Strona jest efektem szkolenia WTF - co ten Frontend! Wykonanie "Zaglinho"®
+    </footer>
+  </body>
 </html>
