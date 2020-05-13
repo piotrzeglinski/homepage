@@ -1,84 +1,184 @@
-.body-background {
+/* BODY */
+
+.body__background,
+.body__background--about {
   background: #16697a;
 }
 
-.second-body-background {
-  background: grey;
+.body__background--knowledge,
+.body__background--tools {
+  background: #92140c;
 }
 
-.tools-body-background {
-  background: #6e638b;
+.main, .main__knowledge, .main__tools, .main__about {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-.about-me-body-background {
-  color: red; 
-  background: forestgreen;
+.footer {
+  max-width: 1000px;
+  color: rgb(167, 165, 165);
+  font-family: calibri light;
+  margin: auto;
 }
 
-nav a {
+.footer__link{
+  font-family: cursive;
+  display:inline;
+  overflow: auto;
+  position: absolute;
+  right: 5px;
+  color: darkred;
+  background:darkgoldenrod;
+  border: 2px solid white;
+  padding: 1px;
+}
+
+/* NAVIGATION */
+
+.navigation__link {
+  color: orange;
+  background: none;
+}
+
+.navigation__link--homepage {
+  background: #92140c;
+}
+
+/* MAIN HEADING*/
+
+.main__heading, .main__about--heading {
   color: darkred;
 }
 
-a {
-  color: orangered;
+.why__link {
+  color: orange;
 }
 
-#html, #javascript, #git, #shortcuts {
+.why__link--knowledge, .why__link--tools, .why__link--about, .introduction__link {
+  color: darkred;
+}
+
+.introduction__link--roadmap {
+  color: orange;
+}
+
+/* NOTES */
+
+.notes__heading--html, .notes__heading--css, 
+.notes__heading--javascript, .notes__heading--terminal, 
+.notes__heading--git, .notes__heading--remember, .notes__heading--shortcuts {
+  color: darkred;
+  position: relative;
+  text-align: center;
+  display: block;
+  width: auto;
+  height: auto;
+  background: whitesmoke;
+  padding: 5px;
+}
+
+.notes__link {
+  color :darkred;
+}
+.notes__html, .notes__javascript, .notes__git, .notes__shortcuts {
   color: black;
-  background: grey
-}
+  background: rgb(187, 184, 184);
+} 
 
-#css, #terminal, #remember {
+.notes__css, .notes__terminal, .notes__remember {
   color: black;
   background: lightseagreen;
 }
 
-.knowledge-section {
-  background: lightsteelblue;
+/* BODY BACKGROUND KNOWLEDGE */
+
+.knowledge__section--heading {
+  color: black;
+  position: relative;
+  text-align: center;
+  display: block;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  border-style: double;
+  background: lightgrey;
 }
 
-.subject-list {
-  background: white;
+/* KNOWLEDGE SECTION */
+
+.knowledge__section--link {
+  color: orange;
+  font-size: x-large;
 }
 
-.heading {
-  color: red;
-  background: orange;
+/* TOOLS SECTION */
+
+.tools__section--heading {
+  color: black;
+  position: relative;
+  text-align: center;
+  display: block;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  border-style: double;
+  background: lightgrey;
 }
 
-.second-heading {
-  color: green;
-  background: pink;
+.tools__section--link {
+  color: orange;
+  font-size: large;
 }
 
-.third-heading {
-  color: blue;
-  background: darkred;
+/* Photos */
+
+.main__picture {
+  overflow: auto;
+  width: 400px;
+  height: 250px;
+  padding: 16px;
+  margin: 5px;
+  border-style: double;
+  background: grey;
 }
 
-.fourth-heading {
-  color: white;
+.main__knowledge--picture {
+  width: 980px;
+  height: 250px;
+  padding: 5px;
+  margin: 5px;
+  border-style: dotted;
+  border-radius: 25%;
   background: black;
 }
 
-.footer {
-  color:orange;
+.main__tools--picture {
+  display: inline-block;
+  overflow: auto;
+  width: 500px;
+  height: 300px;
+  padding: 5px;
+  border-width: 5px 10px 15px 20px;
+  border-style: dashed;
+  border-top: 10px solid orange;
+  border-bottom: 10px solid orange;
+  border-radius: 10%;
+  margin: auto;
+  background: whitesmoke;
 }
 
-.tools-section {
-  background: rgb(184, 183, 183);
+.main__about--picture {
+  width: 180px;
+  height: 160px;
+  padding: 2px;
+  margin: 2px;
+  border-style: groove;
+  border-radius: 20%;
+  background: black;
 }
 
-.top-link-color {
-  color: blue;
-  background: yellow;
-}
 
-.remember {
-  color: rgba (8, 121, 155, 0.5);
-  background: rgba (8, 121, 155, 0.5);
-}
 
-.about-me {
-  background: lightgreen;
-}
+
+

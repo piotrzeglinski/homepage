@@ -7,41 +7,37 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
-  <body class="about-me-body-background">
-    <nav>
-      <a href="index.html">STRONA GŁÓWNA</a>
-      <a href="nauka-html.html">BAZA WIEDZY</a>
-      <a href="narzedzia.html">NARZĘDZIA</a>
-      <a href="o-mnie.html">O MNIE</a>
-    </nav>
+  <body class="body__background--about">
+    <header class="header">
+      <nav class="navigation">
+        <a class="navigation__link" href="index.html">STRONA GŁÓWNA</a>
+        <a class="navigation__link" href="nauka-html.html">BAZA WIEDZY</a>
+        <a class="navigation__link" href="narzedzia.html">NARZĘDZIA</a>
+        <a class="navigation__link navigation__link--about" href="o-mnie.html">O MNIE</a>
+      </nav>
+    </header>
 
-    <main>
-      <header>
-        <h1 class="heading">KIM JESTEM</h1>
+    <main class="main__about">
+      <header class="main__about--header">
+        <h1 class="main__about--heading">KIM JESTEM</h1>
         <div style="text-align: center;">
-          <img id="photo" src="pz.jpg" alt="so handsome that it hurts... hahaha" />
+          <img class="main__about--picture" src="pz.jpg" alt="just me" />
         </div>
       </header>
 
-      <section class="about-me">
-        <h2 class="heading">Dwa słowa o mnie</h2>
-        <p>
-          Cześć! jestem Piotrek i od kilkunastu lat jestem związany z branżą
+      <section class="about__section">
+        <h2 class="about__section--heading">Dwa słowa o mnie</h2>
+        <p class="about__section--descriptions">Cześć! Jestem Piotrek i od kilkunastu lat jestem związany z branżą
           szkoleniową, PR-ową i marketingową.<br />
-          Po godzinach jestem też trenerem piłki nożnej ⚽⚽⚽ w grupach
-          młodzieżowych. Lubię podróże, dobry serial czy książkę.
-        </p>
-        <p>
-          PS. Jeśli będziesz miała/miał pytania pisz śmiało. Dla łatwiejszego
-          kontaktu proponuję od razu <em>przejście na TY</em> 🍻 <br>Do usłyszenia
-          na Slacku!
-        </p>
+          Po godzinach jestem też trenerem piłki nożnej w grupach młodzieżowych
+          ⚽⚽⚽ <br />Lubię podróże, dobry serial czy książkę.</p>
+        <p class="about__section--descriptions">PS. Jeśli będziesz miała/miał pytania pisz śmiało. Dla łatwiejszego
+          kontaktu proponuję od razu <em>przejście na TY</em> 🍻 <br />Do
+          zobaczenia na Frontendowym szlaku...Slacku!</p>
       </section>
     </main>
-
     <footer class="footer">
-    Strona jest efektem szkolenia WTF - co ten Frontend! Wykonanie "Zaglinho"®
-    </footer>
-
+      Strona jest efektem szkolenia WTF - co ten Frontend! Wykonanie "Zaglinho"©
+     </footer>
   </body>
 </html>

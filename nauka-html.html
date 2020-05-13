@@ -7,39 +7,42 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
-  <body class="second-body-background">
-    <nav>
-      <a href="index.html">STRONA GŁÓWNA</a>
-      <a href="nauka-html.html">BAZA WIEDZY</a>
-      <a href="narzedzia.html">NARZĘDZIA</a>
-      <a href="o-mnie.html">O MNIE</a>
-    </nav>
+  <body class="body__background--knowledge">
+    <header class="header" id="top">
+      <nav class="navigation">
+        <a class="navigation__link" href="index.html">STRONA GŁÓWNA</a>
+        <a class="navigation__link navigation__link--knowledge" href="nauka-html.html">BAZA WIEDZY</a>
+        <a class="navigation__link" href="narzedzia.html">NARZĘDZIA</a>
+        <a class="navigation__link" href="o-mnie.html">O MNIE</a>
+      </nav>
+    </header>
 
-    <main>
-      <header>
-        <h1 class="heading">BAZA WIEDZY</h1>
-        <div style="text-align: center;">
-          <img src="laptop.jpg" alt="biurko na którym stoi laptop"/>
-        </div>
+    <main class="main__knowledge">
+      <header class="main__knowledge--header">
+        <h1 class="main__knowledge--heading">BAZA WIEDZY</h1>
+        <img class="main__knowledge--picture" src="html_css_pic.jpg" alt="html&css picture"/>
       </header>
 
-      <section class="knowledge-section">
-        <h2 class="second-heading">Strony godne uwagi</h2>
-        <article class="knowledge-article">
+      <section class="knowledge__section">
+        <h2 class="knowledge__section--heading">Strony godne uwagi</h2>
           <ol>
             <ul>
-              <li><a href="https://developer.mozilla.org/pl/" target="_blank">MDN</a></li>
-              <li><a href="https://css-tricks.com/" target="_blank">CSS Tricks</a></li>
-              <li><a href="https://coolors.co/" target="_blank">Coolors</a></li>
-              <li><a href="https://flexboxfroggy.com/#pl" target="_blank">Flexboxfroggy</a></li>
+              <li><a class="knowledge__section--link" href="https://developer.mozilla.org/pl/" target="_blank"
+                  >MDN</a></li>
+              <li><a class="knowledge__section--link" href="https://www.w3.org/TR/html52/" target="_blank"
+                  >Info HTML</a></li>
+              <li><a class="knowledge__section--link" href="https://www.w3.org/TR/CSS/" target="_blank"
+                  >Info CSS</a></li>
+              <li><a class="knowledge__section--link" href="https://css-tricks.com/" target="_blank">CSS Tricks</a></li>
+              <li><a class="knowledge__section--link" href="https://stackoverflow.com/" target="_blank"
+                  >StackOverFlow</a></li>
             </ul>
           </ol>
-        </article>
       </section>
-
     </main>
     <footer class="footer">
-      Strona jest efektem szkolenia WTF - co ten Frontend! Wykonanie "Zaglinho"®
+      Strona jest efektem szkolenia WTF - co ten Frontend! Wykonanie "Zaglinho"©
+    <div class="top__link"><i><a class="footer__link" href="#top">Wróć na górę strony</a></i></div>
     </footer>
   </body>
 </html>

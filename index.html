@@ -7,27 +7,26 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
-  <body class="body-background">
-    <header id="top">
-      <nav>
-        <a href="index.html">STRONA GŁÓWNA</a>
-        <a href="nauka-html.html">BAZA WIEDZY</a>
-        <a href="narzedzia.html">NARZĘDZIA</a>
-        <a href="o-mnie.html">O MNIE</a>
+  <body class="body__background">
+    <header class="header" id="top">
+      <nav class="navigation">
+        <a class="navigation__link navigation__link--homepage" href="index.html">STRONA GŁÓWNA</a>
+        <a class="navigation__link" href="nauka-html.html">BAZA WIEDZY</a>
+        <a class="navigation__link" href="narzedzia.html">NARZĘDZIA</a>
+        <a class="navigation__link" href="o-mnie.html">O MNIE</a>
       </nav>
     </header>
 
-    <main>
-      <header>
-        <h1 class="heading">OD ZERA DO FRONTEND DEVELOPERA!</h1>
-        <div style="text-align: center;">
-          <img src="laptop.jpg" alt="biurko na którym stoi laptop" />
-        </div>
+    <main class="main">
+      <header class="main__header">
+        <h1 class="main__heading main__heading--js">
+          OD ZERA DO FRONTEND DEVELOPERA!</h1>
+        <img class="main__picture" src="laptop.jpg" alt="biurko, na którym stoi laptop"/>
       </header>
 
-      <section class="main-section">
-        <h2 class="second-heading">Dlaczego Frontend?</h2>
-        <p>
+      <section class="why">
+        <h2 class="why__heading">Dlaczego Frontend?</h2>
+        <p class="why__description">
           Ten temat chodził mi po głowie już od jakiegoś czasu. W ostatnich
           dniach promocji natknąłem się na materiały promujące
           <b>„WTF co ten frontend”</b> i mówiąc wprost Maciek Korsan
@@ -35,103 +34,106 @@
           które można dostosować do własnego planu dnia. Mam nadzieję, że
           zdobyta wiedza pomoże mi nie tylko w stworzeniu własnej strony, ale
           również przyczyni się do tworzenia kolejnych, komercyjnych projektów,
-          bo chętnie zmieniłbym charakter pracy…
-        </p>
-        <p>
-          <a href="https://cotenfrontend.pl" target="_blank"
-            >Dowiedz się więcej o szkoleniu "WTF Co Ten Frontend"</a
-          >
+          bo chętnie zmieniłbym charakter pracy…</p>
+        <p class="why__description why__description--js"></p>
+        <p class="why__description">
+          <a class="why__link" href="https://cotenfrontend.pl" target="_blank"
+            >Dowiedz się więcej o szkoleniu "WTF Co Ten Frontend"</a>
           albo zapoznaj się z dodatkowymi informacjami zawartymi w sekcjach:
-          <a href="nauka-html.html">BAZA WIEDZY</a>
-          <a href="narzedzia.html">NARZĘDZIA</a> lub
-          <a href="o-mnie.html">O MNIE</a>
-        </p>
+          <a class="why__link why__link--knowledge" href="nauka-html.html"
+            >Baza wiedzy</a>
+          <a class="why__link why__link--tools" href="narzedzia.html"
+            >Narzędzia</a>
+          lub
+          <a class="why__link why__link--about" href="o-mnie.html">o mnie</a></p>
       </section>
 
-      <section class="section-notes">
-        <h3 class="third-heading">Zakres szkolenia</h3>
-        <p>
+      <section class="introduction">
+        <h3 class="introduction_heading">Zakres szkolenia</h3>
+        <p class="introduction__description">
           Zanim zapoznasz się ze szczegółowym zakresem szkolenia, możesz
           sprawdzić jak przedstawia się ścieżka rozwoju Frontend Developera
-          <a href="https://roadmap.sh/frontend" target="_blank">Kliknij tutaj</a
-          ><br />
-          Może z tą wiedzą nie zostaniesz od razu
-          <a href="https://www.youtube.com/watch?v=5twveLmWhvI" target="_blank"
-            >tym Panem</a
-          >, ale solidne podstawy powinieneś mieć opanowane 💪
-        </p>
+          <a class="introduction__link introduction__link--roadmap"
+            href="https://roadmap.sh/frontend" target="_blank">Kliknij tutaj</a><br />
+          Może z tą wiedzą nie zostaniesz od razu w świecie frontendu tym, kim w futbolu jest
+          <a class="introduction__link" href="https://www.youtube.com/watch?v=5twveLmWhvI"
+            target="_blank">GOAT</a>, ale solidne podstawy powinieneś mieć opanowane 💪</p>
       </section>
 
-      <article class="subject-list">
-        <h3 class="third-heading">Przejdź do interesującego zakresu:</h3>
-
-        <ul class="horizontal-list">
-          <li><a href="#html">HTML</a></li>
-          <li><a href="#css">CSS</a></li>
-          <li><a href="#javascript">JAVASCRIPT</a></li>
-          <li><a href="#terminal">TERMINAL</a></li>
-          <li><a href="#git">GIT</a></li>
-          <li><a href="#remember">DO ZAPAMIĘTANIA</a></li>
-          <li><a href="#shortcuts">SKRÓTY KLAWISZOWE</a></li>
+      <section class="notes">
+        <h3 class="notes__heading">Przejdź do interesującego zakresu:</h3>
+        <ul>
+          <li><a class="notes__link" href="#html">HTML</a></li>
+          <li><a class="notes__link" href="#css">CSS</a></li>
+          <li><a class="notes__link" href="#javascript">JAVASCRIPT</a></li>
+          <li><a class="notes__link" href="#terminal">TERMINAL</a></li>
+          <li><a class="notes__link" href="#git">GIT</a></li>
+          <li><a class="notes__link" href="#remember">DO ZAPAMIĘTANIA</a></li>
+          <li><a class="notes__link" href="#shortcuts">SKRÓTY KLAWISZOWE</a></li>
         </ul>
         <ol>
-          <section id="html">
-            <h4 class="fourth-heading">HTML</h4>
+          <article class="notes__html" id="html">
+            <h4 class="notes__heading--html">HTML</h4>
             <ul>
-              <li>
-                <strong> &ltmain> &lt/main> </strong>- główna część strony, tu
-                wrzucamy zawartość strony
-              </li>
-              <li>
-                <strong> &ltheader> &lt/header> </strong>- nagłówek, gdy jest
-                poza body powtarza się, na każdej stronie
-              </li>
+              <li><strong> &ltmain> &lt/main> </strong>- główna część strony, tu
+                wrzucamy zawartość strony</li>
+              <li><strong> &ltheader> &lt/header> </strong>- nagłówek, gdy jest
+                poza body powtarza się, na każdej stronie</li>
               <li><strong> &lth1-h6> &lt/h1-h6> </strong>- nagłówki</li>
               <li><strong> &ltfooter> &lt/footer> </strong>- stopka</li>
-              <li>
-                <strong> &ltsection> &lt/section> </strong>- sekcja, wydziela
+              <li><strong> &ltsection> &lt/section> </strong>- sekcja, wydziela
                 spójną tematycznie część. Dzieli na sekcje. Przykład: sekcja
                 sport w gazecie. W sekcji sport mogą być artykuły o piłce
-                nożnej, siatkówce, itp.
-              </li>
-              <li>
-                <strong> &ltarticle> &lt/article> </strong>- artykuł, niesie
+                nożnej, siatkówce, itp.</li>
+              <li><strong> &ltarticle> &lt/article> </strong>- artykuł, niesie
                 treść, treść tekstowa (ale i obraz, tabela), która może być
-                zaprezentowana osobno
-              </li>
+                zaprezentowana osobno</li>
               <li><strong> &ltp> &lt/p> </strong>- paragraf, akapit</li>
+              <li><strong> &ltbr> &lt/br> </strong>- łamanie linii</li>
+              <li><strong> &ltstrong> &lt/strong> </strong>- podkreślenie
+                istotności, ma znaczenie semantyczne</li>
+              <li><strong> &ltem> &lt/em> </strong>- ironia, cośpowiedziane z
+                przymrużeniem oka, ma znaczenie semantyczne</li>
+              <li><strong> &ltb> &lt/b> </strong>- pogrubienie, nia ma znaczenia
+                semantycznego</li>
+              <li><strong> &lti> &lt/i> </strong>- italic, nie ma znaczenia
+                semantycznego</li>
+              <li><strong> &lta href="https lub url" + opis łącza> &lt/a> </strong
+                >- linki do łącza zewnętrznego lub wewnętrznego</li>
+              <li><strong> &ltnav> &lt/nav> </strong>- nawigacja wewnątrz
+                dokumentu <strong> &ltid> &lt/id> </strong> identyfikuje element
+                np. section id="notatki" i w miejscu docelowym: a
+                href="#notatki">przejdź do notatek</li>
+              <li><strong> &ltimg> &lt/img> </strong>- wstawienie obrazka, img
+                src="url lub nazwa pliku ze źródła docelowego" alt="co jest na
+                obrazku"</li>
             </ul>
-          </section>
+          </article>
 
-          <section id="css">
-            <h4 class="fourth-heading">CSS</h4>
+          <article class="notes__css" id="css">
+            <h4 class="notes__heading--css">CSS</h4>
             <ul>
-              <li>
-                budowa reguły CSS: selektor {wartość: wartość;} Selektor -
-                wskazuje to co ma być ostylowane.<br />
-                W sekcji head w kodzie html musimy wpisać znacznik link:
-                <strong>
-                  &ltlink href="style.css" rel="stylesheet"
-                  type="text/css"</strong
-                ><br />
-                Przykładowe znaczniki: {background / color: kolorbody /
-                background / section / h1 / p / itp
-              </li>
-              Przykładowy zapis kolorów: {background / color: wybrana nazwa
-              koloru; lub zapis szesnastkowy:
-              <strong>#ffffff</strong>
+              <li>Budowa reguły CSS: selektor {wartość: wartość;}</li>
+              <li>Selektor - wskazuje to co ma być ostylowane.</li>
+              <li>W sekcji head w kodzie html musimy wpisać znacznik link:
+                <strong>&ltlink href="style.css" rel="stylesheet"
+                  type="text/css"</strong></li>
+              <li>Przykładowe znaczniki: {background / color: kolorbody /
+                background / section / h1 / p / itp</li>
+              <li>Przykładowy zapis kolorów: {background / color: wybrana nazwa
+                koloru; lub zapis szesnastkowy: <strong>#ffffff</strong></li>
             </ul>
-          </section>
+          </article>
 
-          <section id="javascript">
-            <h4 class="fourth-heading">JAVASCRIPT</h4>
+          <article class="notes__javascript" id="javascript">
+            <h4 class="notes__heading--javascript">JAVASCRIPT</h4>
             <ul>
-              <li>coś tam coś tam</li>
+              <li>script alert('Siema!')/script</li>
             </ul>
-          </section>
+          </article>
 
-          <section id="terminal">
-            <h4 class="fourth-heading">TERMINAL</h4>
+          <article class="notes__terminal" id="terminal">
+            <h4 class="notes__heading--terminal">TERMINAL</h4>
             <ul>
               <li>cmd - uruchomienie terminala</li>
               <li>c:/users - przejście do właściwego katalogu</li>
@@ -146,10 +148,10 @@
               <li>code . - uruchomienie Visual Studio Code</li>
               <li>code +nazwa pliku - otwarcie pliku</li>
             </ul>
-          </section>
+          </article>
 
-          <section id="git">
-            <h4 class="fourth-heading">GIT</h4>
+          <article class="notes__git" id="git">
+            <h4 class="notes__heading--git">GIT</h4>
             <ul>
               <p>Komendy wpiywane w terminalu:</p>
               <li>git --version - sprawdzenie wersji</li>
@@ -157,74 +159,68 @@
               <li>git config --get user.name - sprawdzenie</li>
               <li>git config --global user.email "adres e-mail"</li>
               <li>git config --get user.email - sprawdzenie</li>
-              <li>
-                git init + enter - zakładamy repozytorium - wchodzimy w
-                terminalu do katalogu docelowego i wpisujemy ww komendę
-              </li>
+              <li>git init + enter - zakładamy repozytorium - wchodzimy w
+                terminalu do katalogu docelowego i wpisujemy ww komendę</li>
               <li>git status - wyświetla status</li>
               <li>git add . - dodawanie wszystkich plików z katalogu</li>
-              <li>
-                git commit -m "tytuł zmiany" - zapisanie zmian, kommitowanie,
-                angielska nazwa zmiany!
-              </li>
+              <li>git commit -m "tytuł zmiany" - zapisanie zmian, kommitowanie,
+                angielska nazwa zmiany!</li>
               <li>gitk - polecenie otwierające dokument/podgląd</li>
               <li>git push - wypchnięcie zmian do git huba</li>
               <li>clear - polecenie czyszczące okno</li>
               <li>git lens - rozszerzenie pokazujące więcej szczegółów</li>
               <li>Commit - stan projektu, czyli zapis kolejnych zmian</li>
-              <li>
-                Kolejność działań: zmiany w kodzie w VSCode, następnie w
+              <li>Kolejność działań: zmiany w kodzie w VSCode, następnie w
                 terminalu: git status (na czerwono gdy są zmiany) / git add .
-                /git commit -m "nazwa zmiany" / git push /
-              </li>
-              <li>
-                * strzałki góra/dół - wyświetlają poprzednio wpisywane komendy,
-                co może przyspieszyć pracę
-              </li>
-              <li>
-                GIT HUB - programistyczna wizytówka, miejsce przetrzymywania
-                repozytoriów
-              </li>
+                /git commit -m "nazwa zmiany" / git push /</li>
+              <li>* strzałki góra/dół - wyświetlają poprzednio wpisywane komendy,
+                co może przyspieszyć pracę</li>
+              <li>GIT HUB - programistyczna wizytówka, miejsce przetrzymywania
+                repozytoriów</li>
             </ul>
-          </section>
+          </article>
 
-          <section id="remember">
-            <h4 class="fourth-heading">DO ZAPAMIĘTANIA</h4>
+          <article class="notes__remember" id="remember">
+            <h4 class="notes__heading--remember">DO ZAPAMIĘTANIA</h4>
             <ul>
               <li>camelCase: mySuperBoldHeader</li>
               <li>kebab-case: my-super-bold-header</li>
               <li>snake_case: my_super_bold_header</li>
               <li>PascalCase: MySuperBoldHeader</li>
-              <li>
-                Gdy stylujemy to nazwy angielskie zapisywane jako kebab-case
-                (np.news-listing). Ważne - zapisuj nazwy zgodnie z ich funkcją.
-                Element powinien mieć jedną klasę
-              </li>
+              <p></p>
+              <li>Gdy stylujemy to nazwy angielskie zapisywane jako kebab-case
+                (np.news-listing).</li>
+              <li>Zapisuj nazwy zgodnie z ich funkcją</li>
+              <li>Element powinien mieć jedną klasę</li>
               <li>Nie używać jednego ID do wielu elementów!</li>
+              <p></p>
+              <li>W przypadku JavaScript używamy camelCase!</li>
+              <li>Code: formatowanie kodu i lokalny serwer</li>
+              <li>Prettier - formatowanie kodu, poprawienie czytelności kodu</li>
+              <li>Live Server - instaluje opcję "Go Live" w VSC i od razu jak coś
+                zmodyfikujemy, to pojawia się na stronie bez konieczności jej
+                odświeżania</li>
+              <li>ipconfig - wpisanie na terminalu pokazuje nasz adres IP. Po
+                dodaniu na końcu :5500 możemy zobaczyć wygląd strony za
+                pośrednictwem telefonu</li>
             </ul>
-          </section>
+          </article>
 
-          <section id="shortcuts">
-            <h4 class="fourth-heading">SKRÓTY KLAWISZOWE</h4>
+          <article class="notes__shortcuts" id="shortcuts">
+            <h4 class="notes__heading--shortcuts">SKRÓTY KLAWISZOWE</h4>
             <ul>
               <li>! + TAB</li>
               <li>CTRL + SHIFT + P</li>
-              <li>coś tam coś tam</li>
-              <br />
-              <span>
-                <i
-                  ><a href="#top" class="top-link-color"
-                    >Wróć na górę strony</a
-                  ></i
-                >
-              </span>
             </ul>
-          </section>
+          </article>
         </ol>
-      </article>
+      </section>
     </main>
     <footer class="footer">
-      Strona jest efektem szkolenia WTF - co ten Frontend! Wykonanie "Zaglinho"®
+      Strona jest efektem szkolenia WTF - co ten Frontend! Wykonanie "Zaglinho"©
+      <div class="top__link">
+        <i><a class="footer__link" href="#top">Wróć na górę strony</a></i>
+      </div>
     </footer>
     <script src="main.js"></script>
   </body>
