@@ -1,5 +1,29 @@
 /* BODY */
 
+html {
+  box-sizing: border-box;
+  }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.body__background {
+  background: rgb(17,72,92);
+  background: radial-gradient(circle, rgba(17,72,92,1) 50%, rgba(148,187,233,1) 100%);
+}
+
+.body__background--about {
+  background: rgb(17,72,92);
+}
+
+.body__background--knowledge,
+.body__background--tools {
+  background: rgb(138,6,6);
+  background: radial-gradient(circle, rgba(138,6,6,1) 50%, rgba(148,154,233,1) 100%);
+}
+
+/* Body background before 
 .body__background,
 .body__background--about {
   background: #16697a;
@@ -9,6 +33,7 @@
 .body__background--tools {
   background: #92140c;
 }
+*/
 
 .main, .main__knowledge, .main__tools, .main__about {
   max-width: 1000px;
@@ -17,20 +42,23 @@
 
 .footer {
   max-width: 1000px;
-  color: rgb(167, 165, 165);
+  color: white;
   font-family: calibri light;
-  margin: auto;
+  margin: auto;  
 }
 
 .footer__link{
+  max-width: 1000px;
   font-family: cursive;
   display:inline;
   overflow: auto;
-  position: absolute;
-  right: 5px;
+  position: fixed;
+  bottom: 0;
+  right: 50px;
   color: darkred;
   background:darkgoldenrod;
-  border: 2px solid white;
+  border: 2px solid black;
+  border-radius: 0px;
   padding: 1px;
 }
 
@@ -178,7 +206,6 @@
   background: black;
 }
 
-
-
-
-
+.notes__heading--bullets {
+  color: darkred;
+}

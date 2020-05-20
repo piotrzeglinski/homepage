@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="pl">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Uczę się Frontendu</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="normalize.css" rel="stylesheet" type="text/css"/>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
   </head>
 
   <body class="body__background">
@@ -21,7 +22,7 @@
       <header class="main__header">
         <h1 class="main__heading main__heading--js">
           OD ZERA DO FRONTEND DEVELOPERA!</h1>
-        <img class="main__picture" src="laptop.jpg" alt="biurko, na którym stoi laptop"/>
+        <img class="main__picture" src="/image/laptop.jpg" alt="biurko, na którym stoi laptop"/>
       </header>
 
       <section class="why">
@@ -71,40 +72,39 @@
           <li><a class="notes__link" href="#remember">DO ZAPAMIĘTANIA</a></li>
           <li><a class="notes__link" href="#shortcuts">SKRÓTY KLAWISZOWE</a></li>
         </ul>
-        <ol>
-          <article class="notes__html" id="html">
+                  <article class="notes__html" id="html">
             <h4 class="notes__heading--html">HTML</h4>
             <ul>
-              <li><strong> &ltmain> &lt/main> </strong>- główna część strony, tu
+              <li><strong class="notes__heading--bullets"> &lt;main> &lt;main> </strong>- główna część strony, tu
                 wrzucamy zawartość strony</li>
-              <li><strong> &ltheader> &lt/header> </strong>- nagłówek, gdy jest
+              <li><strong class="notes__heading--bullets"> &lt;header> &lt;header> </strong>- nagłówek, gdy jest
                 poza body powtarza się, na każdej stronie</li>
-              <li><strong> &lth1-h6> &lt/h1-h6> </strong>- nagłówki</li>
-              <li><strong> &ltfooter> &lt/footer> </strong>- stopka</li>
-              <li><strong> &ltsection> &lt/section> </strong>- sekcja, wydziela
+              <li><strong class="notes__heading--bullets"> &lt;h1-h6> &lt;h1-h6> </strong>- nagłówki</li>
+              <li><strong class="notes__heading--bullets"> &lt;footer> &lt;footer> </strong>- stopka</li>
+              <li><strong class="notes__heading--bullets"> &lt;section> &lt;section> </strong>- sekcja, wydziela
                 spójną tematycznie część. Dzieli na sekcje. Przykład: sekcja
                 sport w gazecie. W sekcji sport mogą być artykuły o piłce
                 nożnej, siatkówce, itp.</li>
-              <li><strong> &ltarticle> &lt/article> </strong>- artykuł, niesie
+              <li><strong class="notes__heading--bullets"> &lt;article> &lt;article> </strong>- artykuł, niesie
                 treść, treść tekstowa (ale i obraz, tabela), która może być
                 zaprezentowana osobno</li>
-              <li><strong> &ltp> &lt/p> </strong>- paragraf, akapit</li>
-              <li><strong> &ltbr> &lt/br> </strong>- łamanie linii</li>
-              <li><strong> &ltstrong> &lt/strong> </strong>- podkreślenie
+              <li><strong class="notes__heading--bullets"> &lt;p> &lt;p> </strong>- paragraf, akapit</li>
+              <li><strong class="notes__heading--bullets"> &lt;br> &lt;br> </strong>- łamanie linii</li>
+              <li><strong class="notes__heading--bullets"> &lt;strong> &lt;strong> </strong>- podkreślenie
                 istotności, ma znaczenie semantyczne</li>
-              <li><strong> &ltem> &lt/em> </strong>- ironia, cośpowiedziane z
+              <li><strong class="notes__heading--bullets"> &lt;em> &lt;em> </strong>- ironia, cośpowiedziane z
                 przymrużeniem oka, ma znaczenie semantyczne</li>
-              <li><strong> &ltb> &lt/b> </strong>- pogrubienie, nia ma znaczenia
+              <li><strong class="notes__heading--bullets"> &lt;b> &lt;b> </strong>- pogrubienie, nia ma znaczenia
                 semantycznego</li>
-              <li><strong> &lti> &lt/i> </strong>- italic, nie ma znaczenia
+              <li><strong class="notes__heading--bullets"> &lt;i> &lt;i> </strong>- italic, nie ma znaczenia
                 semantycznego</li>
-              <li><strong> &lta href="https lub url" + opis łącza> &lt/a> </strong
+              <li><strong class="notes__heading--bullets"> &lt;a href="https lub url" + opis łącza> &lt;a> </strong
                 >- linki do łącza zewnętrznego lub wewnętrznego</li>
-              <li><strong> &ltnav> &lt/nav> </strong>- nawigacja wewnątrz
-                dokumentu <strong> &ltid> &lt/id> </strong> identyfikuje element
+              <li><strong class="notes__heading--bullets"> &lt;nav> &lt;nav> </strong>- nawigacja wewnątrz
+                dokumentu <strong class="notes__heading--bullets"> &lt;id> &lt;id> </strong> identyfikuje element
                 np. section id="notatki" i w miejscu docelowym: a
                 href="#notatki">przejdź do notatek</li>
-              <li><strong> &ltimg> &lt/img> </strong>- wstawienie obrazka, img
+              <li><strong class="notes__heading--bullets"> &lt;img> &lt;img> </strong>- wstawienie obrazka, img
                 src="url lub nazwa pliku ze źródła docelowego" alt="co jest na
                 obrazku"</li>
             </ul>
@@ -116,7 +116,7 @@
               <li>Budowa reguły CSS: selektor {wartość: wartość;}</li>
               <li>Selektor - wskazuje to co ma być ostylowane.</li>
               <li>W sekcji head w kodzie html musimy wpisać znacznik link:
-                <strong>&ltlink href="style.css" rel="stylesheet"
+              <strong>&lt;link href="style.css" rel="stylesheet"
                   type="text/css"</strong></li>
               <li>Przykładowe znaczniki: {background / color: kolorbody /
                 background / section / h1 / p / itp</li>
@@ -152,8 +152,9 @@
 
           <article class="notes__git" id="git">
             <h4 class="notes__heading--git">GIT</h4>
+            <section>
+            <h4>Komendy wpiywane w terminalu:</h4>
             <ul>
-              <p>Komendy wpiywane w terminalu:</p>
               <li>git --version - sprawdzenie wersji</li>
               <li>git config --global user.name "imię i nazwisko"</li>
               <li>git config --get user.name - sprawdzenie</li>
@@ -173,11 +174,13 @@
               <li>Kolejność działań: zmiany w kodzie w VSCode, następnie w
                 terminalu: git status (na czerwono gdy są zmiany) / git add .
                 /git commit -m "nazwa zmiany" / git push /</li>
+              <li>git clone - klonowanie zawartości zdalnego repozytorium</li>
               <li>* strzałki góra/dół - wyświetlają poprzednio wpisywane komendy,
                 co może przyspieszyć pracę</li>
               <li>GIT HUB - programistyczna wizytówka, miejsce przetrzymywania
                 repozytoriów</li>
-            </ul>
+              </ul>
+              </section>
           </article>
 
           <article class="notes__remember" id="remember">
@@ -187,13 +190,15 @@
               <li>kebab-case: my-super-bold-header</li>
               <li>snake_case: my_super_bold_header</li>
               <li>PascalCase: MySuperBoldHeader</li>
-              <p></p>
+            </ul> 
+            <ul>
               <li>Gdy stylujemy to nazwy angielskie zapisywane jako kebab-case
                 (np.news-listing).</li>
               <li>Zapisuj nazwy zgodnie z ich funkcją</li>
               <li>Element powinien mieć jedną klasę</li>
               <li>Nie używać jednego ID do wielu elementów!</li>
-              <p></p>
+            </ul>
+            <ul>
               <li>W przypadku JavaScript używamy camelCase!</li>
               <li>Code: formatowanie kodu i lokalny serwer</li>
               <li>Prettier - formatowanie kodu, poprawienie czytelności kodu</li>
@@ -213,7 +218,6 @@
               <li>CTRL + SHIFT + P</li>
             </ul>
           </article>
-        </ol>
       </section>
     </main>
     <footer class="footer">
