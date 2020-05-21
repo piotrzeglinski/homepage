@@ -66,7 +66,10 @@ html {
 
 .navigation__link {
   color: orange;
-  background: none;
+  background: #92140c;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline;
 }
 
 .navigation__link--homepage {
@@ -117,6 +120,10 @@ html {
 .notes__css, .notes__terminal, .notes__remember {
   color: black;
   background: lightseagreen;
+}
+
+.notes__heading--bullets {
+  color: darkred;
 }
 
 /* BODY BACKGROUND KNOWLEDGE */
@@ -204,8 +211,4 @@ html {
   border-style: groove;
   border-radius: 20%;
   background: black;
-}
-
-.notes__heading--bullets {
-  color: darkred;
 }
