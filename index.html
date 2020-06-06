@@ -10,18 +10,20 @@
 
   <body class="body__background">
     <header class="header" id="top">
-      <nav class="navigation">
+      <nav class="navigation navigation--js">
         <a class="navigation__link navigation__link--homepage" href="index.html">STRONA GŁÓWNA</a>
         <a class="navigation__link" href="nauka-html.html">BAZA WIEDZY</a>
         <a class="navigation__link" href="narzedzia.html">NARZĘDZIA</a>
         <a class="navigation__link" href="o-mnie.html">O MNIE</a>
       </nav>
+      <button class="hamburger hamburger--js">Menu</button>
     </header>
 
     <main class="main">
       <header class="main__header">
         <h1 class="main__heading main__heading--js">
           OD ZERA DO FRONTEND DEVELOPERA!</h1>
+        <button class="action--js">Zmień nagłówek</button>
         <img class="main__picture" src="laptop.jpg" alt="biurko, na którym stoi laptop"/>
       </header>
 
@@ -50,7 +52,7 @@
       </section>
 
       <section class="introduction">
-        <h3 class="introduction_heading">Zakres szkolenia</h3>
+        <h2 class="introduction__heading">Zakres szkolenia</h2>
         <p class="introduction__description">
           Zanim zapoznasz się ze szczegółowym zakresem szkolenia, możesz
           sprawdzić jak przedstawia się ścieżka rozwoju Frontend Developera
@@ -62,7 +64,7 @@
       </section>
 
       <section class="notes">
-        <h3 class="notes__heading">Przejdź do interesującego zakresu:</h3>
+        <h2 class="notes__heading">Przejdź do interesującego zakresu:</h2>
         <ul>
           <li><a class="notes__link" href="#html">HTML</a></li>
           <li><a class="notes__link" href="#css">CSS</a></li>
@@ -72,8 +74,9 @@
           <li><a class="notes__link" href="#remember">DO ZAPAMIĘTANIA</a></li>
           <li><a class="notes__link" href="#shortcuts">SKRÓTY KLAWISZOWE</a></li>
         </ul>
+        <div class="grid">
                   <article class="notes__html" id="html">
-            <h4 class="notes__heading--html">HTML</h4>
+            <h3 class="notes__heading--html">HTML</h3>
             <ul>
               <li><strong class="notes__heading--bullets"> &lt;main> &lt;main> </strong>- główna część strony, tu
                 wrzucamy zawartość strony</li>
@@ -111,7 +114,7 @@
           </article>
 
           <article class="notes__css" id="css">
-            <h4 class="notes__heading--css">CSS</h4>
+            <h3 class="notes__heading--css">CSS</h3>
             <ul>
               <li>Budowa reguły CSS: selektor {wartość: wartość;}</li>
               <li>Selektor - wskazuje to co ma być ostylowane.</li>
@@ -126,14 +129,14 @@
           </article>
 
           <article class="notes__javascript" id="javascript">
-            <h4 class="notes__heading--javascript">JAVASCRIPT</h4>
+            <h3 class="notes__heading--javascript">JAVASCRIPT</h3>
             <ul>
               <li>script alert('Siema!')/script</li>
             </ul>
           </article>
 
           <article class="notes__terminal" id="terminal">
-            <h4 class="notes__heading--terminal">TERMINAL</h4>
+            <h3 class="notes__heading--terminal">TERMINAL</h3>
             <ul>
               <li>cmd - uruchomienie terminala</li>
               <li>c:/users - przejście do właściwego katalogu</li>
@@ -151,7 +154,7 @@
           </article>
 
           <article class="notes__git" id="git">
-            <h4 class="notes__heading--git">GIT</h4>
+            <h3 class="notes__heading--git">GIT</h3>
             <section>
             <h4>Komendy wpiywane w terminalu:</h4>
             <ul>
@@ -184,7 +187,7 @@
           </article>
 
           <article class="notes__remember" id="remember">
-            <h4 class="notes__heading--remember">DO ZAPAMIĘTANIA</h4>
+            <h3 class="notes__heading--remember">DO ZAPAMIĘTANIA</h3>
             <ul>
               <li>camelCase: mySuperBoldHeader</li>
               <li>kebab-case: my-super-bold-header</li>
@@ -200,6 +203,8 @@
             </ul>
             <ul>
               <li>W przypadku JavaScript używamy camelCase!</li>
+              <li>Klasy w CSS zapisujemy kebab-casem, a zmienne w JS - camelCasem</li>
+              <li>Nazwy klas CSS-owych umieszczone w JS zapisujemy w apostrofach '.nazwa-klasy'</li> 
               <li>Code: formatowanie kodu i lokalny serwer</li>
               <li>Prettier - formatowanie kodu, poprawienie czytelności kodu</li>
               <li>Live Server - instaluje opcję "Go Live" w VSC i od razu jak coś
@@ -212,12 +217,13 @@
           </article>
 
           <article class="notes__shortcuts" id="shortcuts">
-            <h4 class="notes__heading--shortcuts">SKRÓTY KLAWISZOWE</h4>
+            <h3 class="notes__heading--shortcuts">SKRÓTY KLAWISZOWE</h3>
             <ul>
               <li>! + TAB</li>
               <li>CTRL + SHIFT + P</li>
             </ul>
           </article>
+        </div>
       </section>
     </main>
     <footer class="footer">

@@ -64,14 +64,20 @@ html {
 
 /* NAVIGATION */
 
+/*.navigation {
+  display: flex;
+  justify-content: center;
+}
+
 .navigation__link {
   color: orange;
+  display: block;
+  margin: 0 10px;
   background: #92140c;
   padding: 10px;
   border-radius: 10px;
-  display: inline;
 }
-
+*/
 .navigation__link--homepage {
   background: #92140c;
 }
@@ -212,3 +218,61 @@ html {
   border-radius: 20%;
   background: black;
 }
+
+.form {
+  
+}
+
+.form__item {
+  display: block;
+  width: 30%;
+}
+
+.nowa-klasa-z-js {
+  background: orange;
+}
+
+.hamburger {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  border: none;
+  color: darkgoldenrod;
+  background: skyblue;
+}
+
+.main__knowledge--picture {
+  display: block;
+  max-width: 100%;
+}
+
+.main__picture {
+  display: block;
+  max-width: 100%;
+}
+
+.header {
+  background: orangered;
+}
+
+
+@media (min-width: 768px) {
+  .navigation {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 12px;
+  }
+
+  .navigation__link {
+    color: orange;
+    display: block;
+    margin: 0 10px;
+    background: #92140c;
+    padding: 10px;
+    border-radius: 10px;
+  }

@@ -1,0 +1,257 @@
+/* BODY */
+
+html {
+    box-sizing: border-box;
+    }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .body__background {
+    background: radial-gradient(circle, rgba(17,72,92,1) 50%, rgba(148,187,233,1) 100%);
+    &--about {
+      background: rgb(17,72,92);
+    }
+    &--knowledge, &--tools {
+      background: radial-gradient(circle, rgba(138,6,6,1) 50%, rgba(148,154,233,1) 100%);
+    }
+  }
+  
+  .main, .main__knowledge, .main__tools, .main__about {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .footer {
+    max-width: 1000px;
+    color: white;
+    font-family: calibri light;
+    margin: auto; 
+    &--link {
+      max-width: 1000px;
+      font-family: cursive;
+      display:inline;
+      overflow: auto;
+      position: fixed;
+      bottom: 0;
+      right: 50px;
+      color: darkred;
+      background:darkgoldenrod;
+      border: 2px solid black;
+      border-radius: 0px;
+      padding: 1px;
+    } 
+  }
+ 
+  .navigation__link--homepage {
+    background: #92140c;
+  }
+  
+  /* MAIN HEADING*/
+  
+  .main__heading, .main__about--heading {
+    color: darkred;
+  }
+  
+  .why__link {
+    color: orange;
+    &--knowledge, &--tools, &--about {
+      color: darkred;
+    }
+  }
+  
+.introduction__link {
+    color: darkred;
+    &--roadmap {
+      color: orange;
+    }
+  }
+
+  
+  /* NOTES */
+  
+  .notes__heading--html, .notes__heading--css, 
+  .notes__heading--javascript, .notes__heading--terminal, 
+  .notes__heading--git, .notes__heading--remember, .notes__heading--shortcuts {
+    color: darkred;
+    position: relative;
+    text-align: center;
+    display: block;
+    width: auto;
+    height: auto;
+    background: whitesmoke;
+    padding: 5px;
+  }
+/*
+  &::before {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: tomato;
+  }
+  &::after {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: tomato;
+  }
+*/
+
+  .notes__link {
+    color :darkred;
+  }
+  .notes__html, .notes__javascript, .notes__git, .notes__shortcuts {
+    color: black;
+    background: rgb(187, 184, 184);
+  } 
+  
+  .notes__css, .notes__terminal, .notes__remember {
+    color: black;
+    background: lightseagreen;
+  }
+  
+  .notes__heading--bullets {
+    color: darkred;
+  }
+  
+  /* BODY BACKGROUND KNOWLEDGE */
+  
+  .knowledge__section--heading {
+    color: black;
+    position: relative;
+    text-align: center;
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    border-style: double;
+    background: lightgrey;
+  }
+  
+  /* KNOWLEDGE SECTION */
+  
+  .knowledge__section--link {
+    color: orange;
+    font-size: x-large;
+  }
+  
+  /* TOOLS SECTION */
+  
+  .tools__section--heading {
+    color: black;
+    position: relative;
+    text-align: center;
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    border-style: double;
+    background: lightgrey;
+    &--link {
+      color: orange;
+      font-size: medium;
+    }
+  }
+  
+  /* Photos */
+
+  .main__picture {
+    display: block;
+    max-width: 100%;
+  }
+
+  .main__picture {
+    overflow: auto;
+    width: 400px;
+    height: 250px;
+    padding: 16px;
+    margin: 5px;
+    border-style: double;
+    background: grey;
+  }
+  
+  .main__knowledge--picture {
+    width: 980px;
+    height: 250px;
+    padding: 5px;
+    margin: 5px;
+    border-style: dotted;
+    border-radius: 25%;
+    background: black;
+  }
+  
+  .main__tools--picture {
+    display: inline-block;
+    overflow: auto;
+    width: 500px;
+    height: 300px;
+    padding: 5px;
+    border-width: 5px 10px 15px 20px;
+    border-style: dashed;
+    border-top: 10px solid orange;
+    border-bottom: 10px solid orange;
+    border-radius: 10%;
+    margin: auto;
+    background: whitesmoke;
+  }
+  
+  .main__about--picture {
+    width: 180px;
+    height: 160px;
+    padding: 2px;
+    margin: 2px;
+    border-style: groove;
+    border-radius: 20%;
+    background: black;
+  }
+  
+
+  .form {
+    &__item {
+      display: block;
+      width: 30%;
+    }
+  }
+  
+  .nowa-klasa-z-js {
+    background: orange;
+  }
+  
+  .hamburger {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    border: none;
+    color: darkgoldenrod;
+    background: skyblue;
+  }
+
+  
+  .header {
+    background: orangered;
+  }
+  
+  
+  @media (min-width: 768px) {
+    .navigation {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 12px;
+    }
+  
+    .navigation__link {
+      color: orange;
+      display: block;
+      margin: 0 10px;
+      background: #92140c;
+      padding: 10px;
+      border-radius: 10px;
+    }

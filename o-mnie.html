@@ -36,9 +36,63 @@
           kontaktu proponuję od razu <em>przejście na TY</em> 🍻 <br />Do
           zobaczenia na Frontendowym <s>szlaku</s>...Slacku!</p>
       </section>
+
+      <section>
+        <h3>Formularz kontaktowy</h3>
+        <form class="form">
+          <p>
+            <label for="firstName">Twoje imię:</label>
+            <input class="form__item" type="text" value="Piotr" placeholder="Podaj proszę swoje imię" id="firstName" name="firstName">
+          </p>
+        </form>
+        <form>
+          <p>
+            <label for="LastName">Twoje nazwisko:</label>
+            <input class="form__item" placeholder="Bądź tak uprzejmy i podaj swoje nazwisko" id="LastName" name="lastName">
+          </p>
+        </form>
+      </section>
+
+       
+          <fieldset>
+            <legend>Adres</legend>
+            <p>
+            <label>Nazwa ulicy
+              <input class="form__item" id="streetName" placeholder="Podaj nazwę ulicy" name="streetName">
+            </label>
+          </p>
+          <p>
+            <label>Numer domu
+              <input type="number" class="form__item" id="homeNumber" placeholder="Podaj numer domu" name="homeNumber">
+            </label>
+          </p>
+          </fieldset>
+          
+          <fieldset>
+            <legend>Jaki jest Twój ulubiony klub piłkarski</legend>
+            <p>
+            <label><input name="footballClub" type="radio" value="fcbarcelona">FC Barcelona</label>
+            </p>
+            <p><label><input name="footballClub" type="radio" value="manchestercity">Manchester City</label>
+            </p>
+            <p><label><input name="footballClub" type="radio" value="juventus">Juventus</label>
+          </p>
+          </fieldset>
+
+          <p>
+            <label>Range
+              <input class="form__item range--js" id="range" type="range" name="range" min="0" max="100" step="20">
+            </label>
+          </p>
+
+          <p>
+            <label><input name="agreement" type="checkbox">Zgadzam się</label>
+          </p>
+
     </main>
     <footer class="footer">
       Strona jest efektem szkolenia WTF - co ten Frontend! Wykonanie "Zaglinho"©
+      <div class="top__link"><i><a class="footer__link" href="#top">Wróć na górę strony</a></i></div>
      </footer>
   </body>
 </html>
